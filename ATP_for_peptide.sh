@@ -7,7 +7,6 @@ echo "Program written by Abhijeet Singh (abhijeetsingh.aau@gmail.com)
 if [ "$#" -gt 0 ]; then
 	filename=$1
     file=$1
-    
 else
 echo "Enter your multifasta file name"
 read -p 'Filename: ' file

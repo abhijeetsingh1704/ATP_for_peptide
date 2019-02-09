@@ -6,4 +6,4 @@ This program gives an approximate estimation of the amount of ATP require to for
 
 # Usage
 
-> bash ATP_for_peptide.sh inputfile
+> $ bash ATP_for_peptide.sh <inputfile>

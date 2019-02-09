@@ -42,7 +42,7 @@ for i in $(cat fasta_list)
         var1=`cat ${i}_len` 
         var2=2
         echo  $(($var1 - $var2)) >> peptide_bonds
-        #https://biology.stackexchange.com/questions/40964/how-much-nucleoside-triphosphate-is-required-to-form-one-peptide-bond-during-pro
+        
     done
 echo "Calculation ATP equivalant for peptide bonding"
 awk '{ print $1 * -4 }' peptide_bonds > ATPeq
